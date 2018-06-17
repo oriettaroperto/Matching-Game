@@ -70,7 +70,7 @@ function rating(moves) {
 
 // Boostrap modal alert window
 function gameOver(moves, score) {
-    $('#winnerText').text(`You've completed the game in ${second} second with a total of ${moves} moves and a score of ${score}.`);
+    $('#winnerText').text(`You've completed the game in ${second} seconds with a total of ${moves} moves and a score of ${score}.`);
     $('#winnerModal').modal('toggle');
 }
 
